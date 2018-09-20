@@ -7,11 +7,11 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 
-@Entity @Data
+@Entity /*@Data
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
+@AllArgsConstructor*/
 @Table(name = "addresses")
 public class Address implements Serializable {
     @Id

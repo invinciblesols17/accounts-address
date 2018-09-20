@@ -6,8 +6,9 @@ import lombok.*;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity @Data
-/*@NoArgsConstructor
+@Entity
+/*@Data
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter @Setter*/
 @Table(name = "Account")
