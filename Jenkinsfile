@@ -11,7 +11,7 @@ pipeline {
       }
       stage(‘Deploy’){
                  steps{
-                     sh ‘cf push account-address -p ./build/libs/accounts-address-0.0.1-SNAPSHOT.jar --no-start’
+                     sh ‘cf push accounts-address -p ./build/libs/accounts-address-0.0.1-SNAPSHOT.jar --random-route --no-start’
                  }
       }
    }
